@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+.navbar {
+    background:#8904f5;
+    
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.bg-img {
+    /* The image used */
+    
+  
+    height: 753px ;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+    background: #f12711; /* fallback for old browsers */
+    background: linear-gradient(to right, #f12711, #f5af19); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f12711, #f5af19); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#custom-button{
+    padding: 10px;
+    color: white;
+    background-color: #009578;
+    border: 1px solid #000;
+    border-radius:5px;
+    cursor:pointer;
+}
+#custom-button:hover{
+    background-color: #00b28f;
+
+}
+
+#custom-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+}
